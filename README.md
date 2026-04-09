@@ -1,11 +1,43 @@
-<div align="center">
+# Concrete Mix Design Pro
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Professional concrete mix design calculator for civil engineers.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Getting Started
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
 
-</div>
+## 🛠 Tech Stack
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS 4
+- **Icons**: Lucide React
+- **Animations**: Motion (Framer Motion)
+- **Language**: TypeScript
+
+## 🌐 Deployment
+
+### Netlify
+This project is pre-configured for Netlify.
+1. Connect your GitHub repository to Netlify.
+2. Netlify will automatically detect the `netlify.toml` file.
+3. Build settings:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+
+### GitHub Actions
+You can also set up GitHub Actions to automate your build and test process.
+
+---
+© 2026 Civil Engineering Learning Tool
